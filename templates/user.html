@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block content %} 
+
+    Welcome {{user}}
+
+    <form action="" method="POST">
+        <input type="email" name="email" id="" placeholder="Enter Email" value="{{email if email}}">
+
+        <input type="submit" value="Submit">
+    </form>
+
+{% endblock %}
